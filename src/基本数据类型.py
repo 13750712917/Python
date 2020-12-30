@@ -1,2 +1,3 @@
-bool = True
-print(1+bool)
+import json
+
+a = {1:"a",2:"b",3:"c"}
