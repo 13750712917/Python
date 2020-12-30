@@ -1,4 +1,4 @@
-git config --global user.name "用户名"
+git config --global user.name "用户名" ------更改提交代码时的用户信息
 git config --global user.email "xxxxx@163.com"
 
 git init  -----将一个目录初始化为仓库
@@ -10,6 +10,7 @@ git log    ----查看日志
 git reflog  -----查看日志
 git checkout -- 文件名   -----撤销工作目录中指定文件的修改
 git reset 文件名     ------撤销暂存区中的文件
+git branch 分支名 ------创建分支
 git checkout -b 分支名称    -----创建并切换到指定分支中
 git branch -d 分支名称    -----删除指定全部合并的分支
 git branch -D 分支名称    -----删除指定的分支
@@ -28,3 +29,5 @@ git push 关联的远程仓库名 远程仓库分支名称   ------将本地当�
 git pull 关联的远程仓库名 远程仓库分支名称   ------将远程仓库分支拉至本地当前分支中
 ssh -T git@github.com   ----检查本地是否成功关联到github
 git clone 远程仓库url  本地仓库名称   ------克隆远程仓库至本地并命名指定名称
+
+添加
