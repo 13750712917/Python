@@ -1,8 +1,7 @@
 git config --global user.name "用户名" ------更改提交代码时的用户信息
 git config --global user.email "xxxxx@163.com"
 
-git init  -----将一个目录初始化为仓库
-git add 文件名  -----将一个文件添加到暂存区
+git add 文件1 文件2 文件3...  -----将多个文件添加到暂存区
 git add .   -----将所有新文件或更改的文件添加到暂存区
 git commit -m "备注"   ----将暂存区中的内容提交到仓库的当前分支中
 git status  -----查看当前目录状态和暂存区状态
