@@ -13,4 +13,4 @@ def cha(x1 = 100,x2 = 99):
     b=10000 # 局部变量
     chazhi=a-x1-x2
     return chazhi
-print(cha())
+print(cha(a1,a2))
